@@ -1,0 +1,61 @@
+.text {
+    height: 60px;
+    margin: 100px auto 0 auto;
+    padding: 0 0 25px 330px;
+  }
+  
+  .text1 {
+    font-size: 24px;
+    font-weight: bold;
+    height: 32px;
+    flex: 1; /* Tự co giản */
+  }
+  
+  .text2 {
+    font-size: 16px;
+    height: 32px;
+    flex: 1; /* Tự co giản */
+  }
+  
+  
+/* .destination */
+.destination {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    
+  }
+  
+  /* .destination img */
+  .destination img {
+    flex-grow: 1; /* Tự co giãn để lấp đầy không gian */
+    flex-shrink: 1; /* Cho phép co giãn khi cần */
+    flex-basis: 0; /* Thiết lập cơ sở tự động */
+    max-width: 100%;
+    width: 400px;
+    height: 270px;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+  
+  /* .destination p */
+  .destination p {
+    position: absolute;
+    top: 10%;
+    transform: translate(120%, -50%);
+    z-index: 1;
+    color: #ffff;
+  }
+  
+  .destination3 img {
+    flex-grow: 1; /* Tự co giãn để lấp đầy không gian */
+    flex-shrink: 1; /* Cho phép co giãn khi cần */
+    flex-basis: 0; /* Thiết lập cơ sở tự động */
+    max-width: 100%;
+    width: 266.666666px;
+    height: 270px;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
